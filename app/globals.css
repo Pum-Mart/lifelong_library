@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-gray-50 text-gray-900; }
+td, th { line-height: 1.7; }
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+  .print-area { padding: 0 !important; margin: 0 !important; }
+}
